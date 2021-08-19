@@ -1,0 +1,160 @@
+ body{
+ 	background-color: #ebebeb;
+   margin: 0;
+ }
+ #menu{
+    margin-bottom: 20px;
+ }
+ table{
+ 	border-collapse: collapse;
+ 	width: 100%;
+ 	height: 50px;
+ }
+ button{
+ 	border: none;
+ 	color: red;
+ 	font-size: 17px;
+ 	background-color: #ebebeb;
+ 	cursor: pointer;
+ }
+ table tr th{
+ 	border: 2px solid #1fcae0;
+ }
+ h2{
+    color: #33a9d0;
+    font-size: 27px;
+ }
+ .left{
+    width: 65%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+ }
+ .right{
+    width: 32%;
+    float: left;
+    margin-top: 10px;
+ }
+ .right img{
+   width: 100%;
+   height: 750px;
+ }
+ #boder{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #33a9d0;
+    width: 100%;
+ }
+ #boder h2{
+    margin-bottom: 5px;
+ }
+ p{
+    margin-bottom: 15px;
+    margin-right: 15px;
+    font-size: 17px;
+ }
+ input{
+    margin-bottom: 10px;
+    height: 30px; 
+    width: 450px;
+    margin-top: 10px;
+    border: 2px solid lightgray;
+ }
+ select {
+    width: 459px;
+    height: 37px;
+    margin-bottom: 7px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 2px solid lightgray;
+ }
+ #c1 , #c3 , #c5 , #c7 , #c9{
+    width: 20%;
+    text-align: right;
+    float: left;
+ }
+ #c2 , #c4 , #c6 , #c8 , #c10{ 
+    width: 75%;
+    float: left;
+ }
+ .c10{
+   width: 143px;
+   font-size: 17px;
+ }
+ .c11{
+   width: 142px;
+    font-size: 17px;
+ }
+ .c12{
+   width: 142px;
+    font-size: 17px;
+ }
+ #c10{
+   margin-bottom: 20px;
+ }
+ .c1{
+   margin-left: 53px;
+   display: inline-block;
+ }
+ #c12{
+   width: 100%;
+   margin-left: 90px;
+ }
+ .c2 {
+   width: 27%;
+ }
+ .c2 span{
+   vertical-align: middle;
+   padding-left: 10px; 
+}
+ .c2 input{
+   width: 20px;
+   cursor: pointer;
+   text-align: left;
+ }
+ #c13 , #c14 , #c15 , #c16{
+   display: inline-block;
+   margin-right: 70px;
+}
+ 
+
+#c17{
+   float: right;
+   margin-right: 200px;
+   margin-top: 10px;
+}
+#c17 input{
+   width: 90px;
+   cursor: pointer;
+   margin-left: 10px;
+   color: #0dbad0;
+}
+.c3{
+   padding-top: 50px;
+}
+.down{
+   width: 100%;
+   border-left: none;
+   border-right: none;
+   border-top: 2px solid lightblue ;
+   border-bottom: 1px solid #0dbad0;
+   height: 115px;
+   display: inline-block;
+}
+.down img{
+   margin-right: 90px;
+   margin-left: 20px;
+}
+#thai{
+   width: 100%;
+   height: 754px;
+}
+.d1{
+   width: 100%;
+   border: 1px solid #0dbad0;
+   margin-top: 40px;
+   margin-bottom: 70px;
+}
+

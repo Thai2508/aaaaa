@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+ion-icon{
+	width: 22px;
+	height: 22px;
+	margin-left: 20px;
+}
+a{
+	text-decoration: none;
+	color: unset;
+}
+a:hover{
+	text-decoration: underline ;
+}
+li{
+	list-style: none;
+}
+
+/* Menu */
+#menu{
+	width: 1300px;
+	height: 56px;
+	margin: 0 auto;
+}
+#menu button{
+	background-color: white;
+	border: none;
+	cursor: pointer;
+	margin-top: 17px;
+	margin-left: 20px;
+}
+.menu_left{
+	float: left;
+	width: 40%;
+}
+.menu_center{
+	float: left;
+	width: 20%;
+	margin: 0 auto;
+}
+.menu_center a img{
+	width: 150px;
+	height: 50px;
+	padding-left: 20px;
+	
+}
+.menu_right{
+	float: left;
+	width: 40%;
+	text-align: right;
+}
+
+/* List */
+#list{
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	width: 100%;
+	height: 40px;
+}
+#list ul{
+	margin: 7px 0 0 15px;
+}
+#list ul li {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/* center */
+#center{
+	width: 1140px;
+	margin: 20px auto 70px auto;
+	line-height: 2.5;
+	height: 500px;
+	font-size: 14px;
+	font-weight: 600;
+}
+#center h4{
+	border-bottom: 1px solid lightgray;
+	font-size: 18px;
+	font-weight: 600;
+}
+#center p{
+	display: block;
+	margin-top: 5px;
+}
+.left{
+	float: left;
+	width: 550px;
+}
+.border{
+	width: 100%;
+	border: 1px solid;
+	height: 400px;
+	margin-top: 20px;
+}
+.in{
+	margin: 20px 25px 0px 25px;
+	height:  280px;
+}
+.in .text{
+	width: 100%;
+	height: 40px;
+	margin-top: 5px;
+}
+span{
+	font-size: 12px;
+	height: 20px;
+}
+.span{
+	display: block;
+	margin-bottom: 17px;
+}
+.in button{
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 45px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Footer */
+#footer{
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 220px;
+	font-size: 12px;
+}
+.footer{
+	float: left;
+	margin-top: 20px;
+}
+#t1 {
+	margin-left: 19px;
+	width: 320px;
+}
+#t2 , #t3 , #t5{
+	width: 220px;
+}
+#t4{
+	width: 350px;
+}
+#t1 img{
+	width: 200px;
+	height: 50px;
+}
+#t5 img{
+	width: 150px;
+	height: 50px;
+}
+.footer ul li{
+	padding-top: 5px;
+}
+
+

@@ -1,0 +1,267 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+}
+ion-icon{
+	width: 22px;
+	height: 22px;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+ion-icon:hover{
+	color: red;
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+	color: unset;
+	cursor: pointer;
+}
+a:hover{
+	text-decoration: underline;
+}
+li{
+	list-style: none;
+}
+
+/* Menu */
+#menu{
+	width: 1349px;
+	height: 56px;
+	margin: 0 auto;
+	position: absolute;
+}
+.menu_left{
+	float: left;
+	width: 40%;
+}
+.menu_center{
+	float: left;
+	width: 20%;
+	margin: 0 auto;
+}
+.menu_center a img{
+	width: 150px;
+	height: 50px;
+	padding-left: 55px;
+}
+.menu_right{
+	float: left;
+	width: 40%;
+	text-align: right;
+}
+
+/* IMG_1 */
+.img_1{
+	height: 655px;
+	background-image: url("./img/img1.jpg");
+	background-size: cover;
+	border: 1px solid;
+	border-radius: 2px;
+}
+
+/* Banner */
+#banner{
+	width: 1300px;
+	height: 850px;
+	margin: 50px auto;
+}
+.banner{
+	background-image: url("./img/img2.jpg");
+	float: left;
+	width: 200px;
+	margin-left: 20px;
+	height: 273px;
+	background-size: cover;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.banner:hover{
+	background-image: url("./img/img3.jpg");
+}
+.b1{
+	background-image: url("./img/img4.jpg");
+	float: left;
+	width: 200px;
+	margin-left: 20px;
+	height: 273px;
+	background-size: cover;
+	cursor: pointer;
+}
+.b1:hover{
+	background-image: url("./img/img5.jpg");
+}
+.name{
+	float: left;
+	text-align: center;
+	width: 200px;
+	margin-left: 20px;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.name a:hover{
+	color: red;
+}
+#banner button{
+	width: 230px;
+	height: 45px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	margin-top: 30px;
+	border: none;
+	font-size: 15px;
+}
+#banner button:hover{
+	border: 1px solid;
+	color: black;
+	background-color: white;
+}
+
+/* IMG_6_7 */
+.img_6{
+	height: 655px;
+	background-image: url("./img/img6.jpg");
+	background-size: cover;
+	border: 1px solid white;
+	filter: grayscale(100%);
+	transition: all 500ms ease-out;
+}
+.img_6:hover{
+	filter: unset;
+	transition: all 500ms ease-out;
+}
+.img_7{
+	height: 655px;
+	background-image: url("./img/img7.jpg");
+	background-size: cover;
+	border: 1px solid white;
+	filter: grayscale(100%);
+	transition: all 500ms ease-out;
+}
+.img_7:hover{
+	filter: unset;
+	transition: all 500ms ease-out;
+}
+.img_6 p , .img_7 p {
+	color: white;
+	font-weight: bold;
+	padding-left: 50px;
+	padding-top: 450px;
+}
+.dm:hover{
+	text-decoration: none;
+}
+
+/* IMG_9_10 */
+.dmm{
+	float: left;
+	width: 50%;
+}
+.img_9{
+	height: 355px;
+	background-image: url("./img/img9.jpg");
+	background-size: cover;
+	border: 1px solid white;
+	filter: grayscale(100%);
+	transition: all 500ms ease-out;
+}
+.img_10{
+	height: 355px;
+	background-image: url("./img/img10.jpg");
+	background-size: cover;
+	border: 1px solid white;
+	filter: grayscale(100%);
+	transition: all 500ms ease-out;
+}
+.img_9:hover , .img_10:hover{
+	filter: unset;
+	transition: all 500ms ease-out;
+}
+.img_9 p , .img_10 p {
+	color: white;
+	font-weight: bold;
+	padding-left: 50px;
+	padding-top: 200px;
+}
+.dmm:hover{
+	text-decoration: none;
+}
+
+/* IMG_8 */
+.img_8{
+	background-image: url("./img/img8.jpg");
+	height: 800px;
+	background-size: cover;
+}
+#in{
+	width: 70%;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+}
+#in p{
+	color: gray;
+}
+#in a{
+	letter-spacing: 4px;
+}
+#in a:hover{
+	color: red;
+}
+#in img{
+	padding-top: 100px;
+	padding-bottom: 25px;
+}
+
+/* Footer */
+#footer{
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 220px;
+	font-size: 12px;
+}
+#footer h4{
+	font-size: 16px;
+}
+.footer{
+	float: left;
+	margin-top: 20px;
+}
+#t1 {
+	margin-left: 19px;
+	width: 320px;
+}
+#t2 , #t3 , #t5{
+	width: 220px;
+}
+#t4{
+	width: 350px;
+}
+#t1 img{
+	width: 200px;
+	height: 50px;
+}
+#t1 ion-icon{
+	margin: 0 12px;
+
+}
+#t5 img{
+	width: 150px;
+	height: 50px;
+}
+.footer ul li{
+	padding-top: 5px;
+}

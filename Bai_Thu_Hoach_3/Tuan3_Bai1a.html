@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trinh Van Thai</title>
+	<style>
+		.center{
+			width: 800px;
+			margin: 50px auto;
+		}
+		.up{
+			border: 1px solid lightgray ;
+			border-radius: 12px;
+			height: 550px;
+			
+		}
+		.left{
+			font-size: 17px;
+			float: left;
+			width: 50%;
+			margin: 60px 10px 40px 50px ;
+		}
+		.right{
+			font-size: 17px;
+			float: left;
+			width: 25%;
+			margin: 80px 30px;
+		}
+		.T3{
+			text-align: center;
+			cursor: pointer;
+			width: 10%;
+			height: 30px;
+			margin: 30px 5px 0px 0px;
+		}
+		.phone{
+			border-top: none;
+			border-right: none;
+			border-bottom: 1px solid blue;
+			border-left: none;
+			width: 80%;
+			height: 30px;
+			color: blue;
+			margin-top: 30px;
+		}
+		.border{
+			color: blue;
+			float: left;
+			background-color: white;
+			font-size: 17px;
+			margin: 80px 0px 0px 0px;
+			height: 40px;
+			cursor: pointer;
+		}
+		.borders{
+			color: white;
+			background-color: blue;
+			border-radius: 5px;
+			float: right;
+			margin-top: 80px;
+			margin-right: 20px;
+			font-size: 17px;
+			width: 100px;
+			height: 40px;
+			display: block;
+			cursor: pointer;
+		}
+		.down{
+			margin: 20px;
+		}
+		.T1{
+			float: left;
+		}
+		select {
+			cursor: pointer;
+		}
+		ul li{	
+			float: right;
+			list-style: none;
+			margin-right: 30px;
+		}
+		ul li a{
+			color: gray;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="center">
+		<div class="up">
+			<div class="left">
+				<img src="https://staging.fpt.vn/storage/upload/images/emagazine/googlelogo_color_160x56dp.png" width="100px" height="50px">
+				<h3>Verify your phone number</h3>
+				<p>For your security, Google wants to make sure it’s really you. Google will send a text message with a 6-digit verification code. Standard rates apply</p>
+				<select class="T3" style="border: none;">
+					<option value="VN">VN</option>
+					<option>HQ</option>
+					<option>NB</option>
+					<option>TL</option>
+				</select>
+				<input class="phone" style="text" placeholder="Phone number">
+				<form action="./Tuan3_Bai1.html" target="_blank">
+					<input style="border: none" class="border" type="submit" value="Back">
+				</form>
+				<button class="borders" style="border: none;" value="Next" onclick="alert('Dont click here please')">Next</button>
+			</div>
+			<div class="right">	
+				<img src="https://ssl.gstatic.com/accounts/signup/glif/personal.svg" width="250px" height="300px">
+				<p style="text-align: center;">Your personal info is private & safe</p>
+			</div>
+		</div>
+		<div class="down">
+			<div class="T1">
+			<select style="border: none;">
+				<option value="English">English</option>
+				<option>Vietnamese</option>
+				<option >Korean</option>
+				<option >Japanese</option>
+			</select></div>
+			<ul>
+				<li><a href="https://support.google.com/accounts?hl=en#topic=3382296" target="_blank">Help</li>
+				<li><a href="https://policies.google.com/privacy?gl=VN&hl=en" target="_blank">Privacy</li>
+				<li><a href="https://policies.google.com/terms?gl=VN&hl=en" target="_blank">Terms</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
